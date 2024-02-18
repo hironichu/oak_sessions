@@ -1,8 +1,8 @@
-import { crypto } from "https://deno.land/std@0.149.0/crypto/mod.ts";
+import { crypto } from "https://deno.land/std@0.215.0/crypto/mod.ts";
 import {
-  decode as bd,
-  encode as be,
-} from "https://deno.land/std@0.149.0/encoding/base64.ts";
+  decodeBase64 as bd,
+  encodeBase64 as be,
+} from "https://deno.land/std@0.215.0/encoding/base64.ts";
 
 // Helper functions to encrypt / decrypt using AES with default config in CryptoJS
 
